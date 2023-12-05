@@ -1,0 +1,114 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+  *{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+main{
+    width: 1500px;
+    height: 1000px;
+    background-color:#edf2f8;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+.left{
+    width: 73%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    align-items: center;
+}
+
+.right{
+    width:27%;
+    height: 100%;
+    /* border: 2px solid green; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+}
+.daniel, .patrick{
+    width: 60%;
+    height: 45%;
+    /* border: 2px solid red; */
+    margin: 10px ;
+    border-radius: 10px;
+    padding: 30px;
+}
+.jonathan, .jeanette{
+    width: 30%;
+    height: 45%;
+    /* border: 2px solid red; */
+    margin: 10px ;
+    border-radius: 10px;
+    padding: 30px;
+}
+.kira{
+    width: 90%;
+    height: 94%;
+    /* border: 2px solid red; */
+    margin: 10px ;
+    border-radius: 10px;
+    padding: 30px;
+}
+
+#purple{
+    background-color: #733ec9;
+    color: #ffffff;
+    position: relative;
+}
+#white, #beige{
+    background-color: #ffffff;
+    color: black;
+}
+#grey{
+    background-color: #49556b;
+    color: #ffffff;
+}
+#black{
+    background-color: #18202d;
+    color: #ffffff;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    border: 1.5px solid rgba(117, 64, 201, 0.6) ;
+}
+h2{
+    font-size: small;
+    width: max-content;
+    opacity: 0.6;
+}
+h3{
+    font-size:x-small;
+    width: max-content;
+    opacity: 0.6;
+}
+h1{
+    font-size: larger;
+    margin-top: 30px;
+}
+header{
+    display:inline-flex;
+    gap: 20px;
+    align-items: center;
+}
+p{
+    margin-top: 30px;
+}
+#qt{
+    position: absolute;
+    margin-top: 0px;
+}
