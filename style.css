@@ -118,5 +118,6 @@ p{
     z-index: 1;
     opacity: 0.5;
     margin-top: 0px;
-    margin-bottom: 685px;
+    margin-bottom: 680px;
+    border-radius: 0px;
 }
