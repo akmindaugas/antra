@@ -26,6 +26,7 @@ main{
     justify-content: space-around;
     padding: 10px;
     align-items: center;
+    position: relative;
 }
 
 .right{
@@ -66,7 +67,7 @@ main{
 #purple{
     background-color: #733ec9;
     color: #ffffff;
-    position: relative;
+   
 }
 #white, #beige{
     background-color: #ffffff;
@@ -81,9 +82,9 @@ main{
     color: #ffffff;
 }
 img{
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
     border: 1.5px solid rgba(117, 64, 201, 0.6) ;
 }
 h2{
@@ -99,6 +100,7 @@ h3{
 h1{
     font-size: larger;
     margin-top: 30px;
+    z-index: 10;
 }
 header{
     display:inline-flex;
@@ -110,5 +112,11 @@ p{
 }
 #qt{
     position: absolute;
+    border: none;
+    width: 120px;
+    height: 140px;
+    z-index: 1;
+    opacity: 0.5;
     margin-top: 0px;
+    margin-bottom: 685px;
 }
